@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color:#d4faf5 ;
+}div{
+	margin-left:35%;
+  margin-right:10%;
+	padding: 2px 16px;
+	height: 1000px;
+  
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #85fff1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+ li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #0255fa;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #0af2d7;
+  color: white;
+}
+ .imgdiv1 {
+  background-image: url("japan.jpg"); 
+  margin-left:10%;
+  margin-right:10%;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}.imgdiv2 {
+  background-image: url("switzerland.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left:10%;
+  margin-right:10%;
+
+}
+.imgdiv3 {
+  background-image: url("france.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left:10%;
+  margin-right:10%;
+
+}
+
+
+
+
